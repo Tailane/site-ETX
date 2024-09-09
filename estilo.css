@@ -1,0 +1,59 @@
+
+  /*  padrao para todos os itens do css receber essa caracterisca */ 
+*{
+    box-sizing: border-box; /* encorpora margins e peddings tudo dentro de uma caixa*/
+}
+body{
+  /* background-image: url(img/construção.jpg);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  margin: 0;
+}
+
+.navbar{
+  display: flex; /* especifica como o elemento  HTML é mostrado em uma página web*/
+  flex-flow: row wrap; /* em linha e dentro do invólucro*/
+  height: 100px;
+  /* background: grey; */
+  justify-content: center;
+  align-items: center;
+
+}
+.logo{
+  flex: 20%;
+  margin-left: 0%;
+  /* border: 1px solid red; */
+  text-align: center;
+ padding: 3%;
+}
+.menu{
+  flex: 70%;
+  /* border: 1px solid green; borda para melhor visualização de espaço */
+  text-align: right; /* alinar text a direita*/
+  padding: 20px;
+}
+.menu a{
+  color: #180f4a;
+  text-decoration: none; /* tira o sublinhado do nome*/
+  font-size: 20px;
+  padding: 20px 16px; 
+}
+.menu a:hover{
+  color: black;
+  border-top: 4px solid #180f4a;
+}
+#botao{
+  background: #180f4a;
+  padding: 10px 25px; /* preenchimento do botão*/
+  color: white;
+  border-radius: 5px; /* arredondamento dos cantos*/
+  margin-right: 10px;
+  margin-left: 5px;
+}
+#botao:hover{  /* hover é 'sobre', no caso sobre o botao*/
+  border: none;
+  background: black;
+
+}
+ 
